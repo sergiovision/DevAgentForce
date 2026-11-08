@@ -2,8 +2,6 @@
 
 A self-hosted pipeline: AI agents write the code, real compilers and tests decide, only passing changes become pull requests.
 
-For engineers and hiring managers. Prose and Mermaid only. No source code.
-
 ```mermaid
 mindmap
   root(("DevAgentForce engineering"))
