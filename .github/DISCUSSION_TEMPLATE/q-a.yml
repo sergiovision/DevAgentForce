@@ -1,0 +1,23 @@
+title: "[Q&A] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check the FAQ and the handbook first. Remove secrets, tokens and private hostnames from anything you paste.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version and edition
+      placeholder: "2.0.238, Free"
+  - type: dropdown
+    id: install
+    attributes:
+      label: Install type
+      options: ["Native installer", "Desktop app", "Cloud VM", "Not installed yet"]

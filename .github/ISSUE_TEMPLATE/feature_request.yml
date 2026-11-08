@@ -1,0 +1,32 @@
+name: Feature request
+description: Suggest a capability or an improvement to DevAgentForce or its docs.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For open-ended ideas, Discussions → Ideas is often a better place to start.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What are you trying to do, and what gets in the way today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What would you like DevAgentForce to do?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: ["Pipeline and tasks", "Agents and vendors", "Workflows and review", "Git providers", "Knowledge and memory", "Integrations and MCP", "Security", "Operations", "Desktop app", "Documentation"]
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered

@@ -1,0 +1,8 @@
+# Long prose lines, inline HTML for the centered README header and
+# duplicate headings across pages are intentional.
+default: true
+MD013: false
+MD033: false
+MD024:
+  siblings_only: true
+MD041: false

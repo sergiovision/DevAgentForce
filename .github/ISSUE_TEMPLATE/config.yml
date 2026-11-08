@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and help (Q&A)
+    url: https://github.com/sergiovision/DevAgentForce/discussions/categories/q-a
+    about: Ask how to install, configure or use DevAgentForce.
+  - name: Report a security vulnerability
+    url: https://github.com/sergiovision/DevAgentForce/blob/main/SECURITY.md
+    about: Please report vulnerabilities privately, never in a public issue.
+  - name: Full documentation
+    url: https://capitaltools.app/devagentforce/docs
+    about: The complete, always-current DevAgentForce documentation.
